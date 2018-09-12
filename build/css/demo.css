@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+
+.hide {
+  display: none; }
+
+pre {
+  margin: 0 !important;
+  display: inline-block; }
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+  background: none; }
+
+input, button {
+  height: 35px;
+  margin: 0;
+  padding: 6px 12px;
+  border-radius: 2px;
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit; }
+  input[disabled], button[disabled] {
+    background-color: #eee; }
+
+input, select {
+  border: 1px solid #CCC;
+  width: 250px;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 10px; }
+
+::-webkit-input-placeholder {
+  color: #BBB; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #BBB;
+  opacity: 1; }
+
+:-ms-input-placeholder {
+  color: #BBB; }
+
+.intl-tel-input{
+  width: 100%;
+}
+
+.intl-tel-input.allow-dropdown input, .intl-tel-input.allow-dropdown input[type=text], .intl-tel-input.allow-dropdown input[type=tel], .intl-tel-input.separate-dial-code input, .intl-tel-input.separate-dial-code input[type=text], .intl-tel-input.separate-dial-code input[type=tel]{
+  width: 100%;
+}
+
+#result {
+  margin-bottom: 100px; }
